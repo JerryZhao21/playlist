@@ -1,17 +1,36 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title> Playlist Project! </title>
-        <!-- Your CSS -->
-        <link type="text/css" rel="stylesheet" href="css/style.css" />
-    </head>
-    <body>
-        
-        
-        
-        <!-- jQuery -->
-        <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
-        <!-- Your Javascript -->
-        <script src="js/script.js"></script>
-    </body>
+  <head>
+    <title>Alexa and Jerry's Playlist</title>
+    <!-- Your CSS -->
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1 class="title">Alexa's, Jerry's, and Robert's Playlist</h1>
+
+    <div id="inputs">
+    <input placeholder="Song Name.." id="songInput" />
+    <input placeholder="Artist Name.." id="artistInput" />
+    <input placeholder="Song Length.." id="lengthInput" />
+    <input placeholder="Song Image.." id="imageInput" />
+    <input placeholder="Song Link.." id="linkInput" />
+
+    <button id="submitSongInfo">Submit</button>
+    </div>
+      
+    <div id="container">
+      <div id="songList"></div>
+      <div id="songArtist"></div>
+      <div id="songLength"></div>
+      <div id="songImage"></div>
+      <div id="songLink"></div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <!-- Your Javascript -->
+    <script src="js/script.js"></script>
+  </body>
 </html>

@@ -9,20 +9,20 @@ In this unit, coders will create a Playlist. The Playlist will display a list of
 - [ ] Complete the project planning document.
 #### Set-Up
 - [x] Go to the repository
-- [ ] Fork this repository to your github account and clone to a new workspace
-- [ ] Add, commit, and push your changes
-- [ ] Make your site live on gh-pages
-- [ ] Submit your website using the link on the Agenda
+- [x] Fork this repository to your github account and clone to a new workspace
+- [X] Add, commit, and push your changes
+- [x] Make your site live on gh-pages
+- [x] Submit your website using the link on the Agenda
 
 ### HTML
-- [ ] Create a div to display your songs
+- [x] Create a div to display your songs
 
 ### JavaScript
-- [ ] Create an array to store your song names
-- [ ] Repeat these steps for song artist, song length, image, and link
+- [x] Create an array to store your song names
+- [x] Repeat these steps for song artist, song length, image, and link
 
 ### Wrap
-- [ ] Push your changes!
+- [x] Push your changes!
 
 ## Day 2
 

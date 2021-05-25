@@ -1,0 +1,57 @@
+#songList {
+  display:flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+#songArtist {
+  display:flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+#songLength {
+  display:flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+#songImage {
+  display:flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+#songLink {
+  display:flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+img {
+  width: 130px;
+  display: flex;
+  margin: 16px;
+  flex-direction: row;
+}
+
+#container {
+  display:flex; 
+  margin: 36px;
+  border: 10px solid black;
+  padding: 50px;
+  justify-content: space-between;
+  font-family: 'Nunito', sans-serif;
+  font-size: 25px;
+}
+
+#container div {
+  padding:16px;
+}
+
+.title {
+  font-family: 'Nunito', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+#inputs {
+ display: flex;
+  justify-content: center;
+}
